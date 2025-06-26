@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta e Título -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Ingridy</title>
+
+    <!-- Estilos e Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header com informações de perfil -->
+    <header class="container text-center">
+        <img src="img/avatar-perfil.png" alt="avatar da Arhalfox" class="rounded-circle" width="150" height="150">
+        <p class="lead">Eu sou Ingridy</p>
+        <h1 class="mb-3">Sou estudante </h1>
+        <p class="mb-3">Sou uma entusiasta de metal e tecnologia, apaixonada por criar e compartilhar conhecimento. Com energia e intensidade, desenvolvo projetos e compartilho experiências. Explore meus projetos e vamos criar algo incrível juntos!</p>
+
+        <!-- Habilidades -->
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">Análise crítica de letras e músicas</p>
+            <p class="badge bg-secondary">Conhecimento de diferentes subgêneros (hard rock, punk, metal, etc.)</p>
+            <p class="badge bg-secondary">Identificação de influências e estilos de bandas e artistast</p>
+            <p class="badge bg-secondary">Criação de conteúdo sobre rock e música</p>
+            <p class="badge bg-secondary">Discussão sobre a história e a cultura do rock</p>
+        </div>
+    </header>
+
+    <!-- Seção de Projetos -->
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-1.png" class="card-img-top" alt="Imagem do projeto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Riffs da Eternidade</h5>
+                        <p class="card-text">Plataforma sobre "A jornada do rock e o legado do Metallica"</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+    </main>
+
+    <!-- Modais de Projeto -->
+
+    <!-- Modal Projeto 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">VtubeFlix</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Plataforma de streaming para VTubers, onde você pode assistir vídeos e interagir com seus streamers favoritos.</p>
+                    <img src="img/projeto-1.png" class="img-fluid w-100" alt="Imagem do Projeto 1">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://arhalfox.github.io/Riffs-da-Eternidade/" target="_blank">Ver projeto ao vivo</a>
+                    <a href="https://github.com/ArhalFox/Riffs-da-Eternidade" target="_blank">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Projeto 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">FoxVerse</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Um mundo virtual imersivo, onde você pode criar e explorar diversos cenários com seu personagem.</p>
+                    <img src="img/projeto-2.png" class="img-fluid w-100" alt="Imagem do Projeto 2">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://arhalfox.github.io/Riffs-da-Eternidade/" target="_blank">Ver projeto ao vivo</a>
+                    <a href="https://github.com/ArhalFox/Riffs-da-Eternidade target="_blank">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Rodapé -->
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/ArhalFox" target="_blank">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Arhalfox</p>
+    </footer>
+
+    <!-- Scripts Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
